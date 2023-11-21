@@ -1,0 +1,179 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Phone
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Phone
+ identifier : 0x286fc8f501ea0dea
+ internal_properties : CAAAAAgAAABvm+3PH0pC+RxeXm5dOp4Oyzd/ZrqRBNkdBNWuofYov4m6zJQoKADaCzoWSD5b6OvrUcNhcuA3C2Fd4jIpje+MlAWKp05oVWOpBNJPIKjTWlugj+A01YrOLabCc//ArOhrP9+1AofLduk+NH+4eFC4W6YFY8RfsIowttOLOsi9MPuvRmiZ5TNNcU/oPzNg+1F8zjPEVTz/93zA3uxj4CCZ3TbtigHzQ/AZ9l404tTG1XBTaKQl5VXxtfQ5MSjKrmn0v8rXiZlZWIGBZpCi67LrZA5wydKMIrC4YE0rHtRi9RIS19DrBVctSHQ59a464yn84EYOsadJBBfLrlMDzm9TYNS9y8j6tXB755RhjcLh7Zz0tDTKNMIITlkHu78PJKfKIC4suGfz63om9yjok26LgZSPTbMVggHrFyihh/6xMadg5HjIYs5xGPmYkvpQnjRdEZtDtRWLXkhzNzYkxB+3P/UFt8kucvyKm7ztqdeGl1n4aPkCMkNR3rGCE0FqanHsXudmYJ9eUOtSQooM520UcXVOaQXfWuiswIaGsaLTRy2XCjWIGPvBn1ec+r+aDFR7BdNMBXGwDJfvf330prDLv+8x2/RUCea3D1RVLXxiP1nEQjoBuy8PI4wRtvYSf/6DksB52wUQbuPEFM/5xzxuBmZggWebP76Qa8hx6MgiAciIj3y+HscabaNxZL+zcaY4sy1Zv1aeCbUYBRsVKUCO1dY4x3vOORklXrkm
+ properties :
+  width : 320
+  height : 416
+  heightMin : 436
+ controls :
+  -
+    name : BTN_Send_a_message_to_the_watch
+    identifier : 0x286fc8f501eb0dea
+    internal_properties : CAAAAAgAAABMwIsXuep6JGm/tXRbaZnQLbLgxE1++dIQhbEx93tRrsTWLIgEfaPWmSoF3rhgWFku6TckDV+JjeUmEOMgkdq9XVm33GqrFqzURbadYw/rf+SHBl/BTJJgAtRoW/W0YEL0SfZ3KE/tSncQKlXY3l7Wfb2UfbX3hM7rhPHC7GRFbneGZChh+p52SX1Ze2OatuPT4O83hlLc2+rWX70vfKBVPzZt8QiDNNGCgO3cS4y1KVS09TeZ5RpHvfjtJY5EDES7H3zbAdgeV/H21FmY3TbpqpZyrMKBP3k2ek/AGUWMqxXTG43XZWyTnpQIKWPVOeYaXyd2+LwdpiApikDM/R4xyEXFzktSl6hbTRvAYwxfNllSa3fthR8M8Ynihv6CEVOs5R5pSVzHQDAaaumjif0Dvf9DKijyIfl93RJhGzoacQIydytr9ohVMRpE2SurT0tfCDf1yl7X4uW9dWKi0ivMtspIa2bU0Uk8lsLT8oY7Fx4h5OB1IFhNHbzikEZtrJaWYYs01O5AfDH7Q+s8xg/5uWUQBetzYY8BAmkvxhJjrjEMSGwwgmgI15zjDpbpDoUyh4sOvY7FM/Rd6rtCO7jLx2k8wwfwrVrUp+OPRHPuMz/dTbO6rg85KlsqY0Q1+x4ei7qqNy+GRVtiij4XcfKwt50kJ8s3gn5psUK/F+qsF0s4XbDzuU3q/JlUTYk+1YlFqJ4aQhE5gW1PwbudUjO/zb7f1D3lPgRb1NKmSrLFUZHLvMoFzDQUIOHyXHIIUVqYyz83lrPa1O9hPpWCQCEcALx8nd4RSPH0/bVI0B9gEAyI4NpoGNfZInzcUPy/15bdrlFAgZkG/ysQ6NzhZv0khm8++CXdk5K1L7KNCe8vVMUkRy5dH3aHfpCoRWs1mj+dhhNcIhqGNZamcTxR7ACAaHbJNhpH4JWzNpx9pFINntUbU7assIvVlrpbsURljwzeFzTXkHoGahnvBcO6gTppOuEnA/6wNw==
+    properties :
+     x : 72
+     y : 105
+     width : 176
+     height : 58
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         STC_Answer..Visible = False
+         
+         // Send data to the watch
+         SendDataToWatch()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_NoName1
+    identifier : 0x286fc8f501ec0dea
+    internal_properties : CAAAAAgAAADvq9wmfo4ljY0QBmT6W5urlYB7uQKjP990LnxsDn34qeP6AlyxEKsz0cpQMEp6ASXu0mq5alF/XHEuMCU8HnagHXuLKzD5F7fNjeSH81wheziwfm2zYmPYSPbbno3YAOe07N6olHZBhUH6fsXcPmvTBnHo8yflv1lEKcMUbNwo4CbSoXnMmvkdxtHBF25B6KwKfP4Wb68iFOBhtzE+8qRorwN1pzQ8V5mB1P16Mh8VednUuIGIE3scOs6DFD4gGMy8Q0veBvP3ZBvh3hk7lJ1thgHlERA+T6hTLXe34mk+gG8KXN86jqYXM9hGiarIVIntnRGP87D48WYRlyKaDTUR98yHCdy7bTvfBiKPUr0d48RxTs7uOU8EykIztWT2YcikMk4YTLomgmPQyqPzkmdqYmUGfOjZKuQOSA7txaeqeqr3vajbvpUMzC11mfbfJoZeOPjPDo4fbiU+ffrTiKmuo4aS84pRnjfgiJHKGaFbPZTQjCp1XTUHXd5CxXgZ1VIlq1o0NeVz75ZCoJYB4/mCZM1X6o9hjskYpatgaF+VejjlMGEdw5DeI3amkerd1LHDrn7Jf0rmI3iGTg==
+    properties :
+     x : 16
+     y : 19
+     width : 288
+     height : 67
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_NoName2
+    identifier : 0x286fc8f501ed0dea
+    internal_properties : CAAAAAgAAACUSVJ78gHmVJEOgarHfFztNUbIFDH7V4pGOeUZ27lCNihpZMbNHToNBfq0fbxehmIjzRnUxSQL1icUtCdABF3sTVCfEOoCT48eGzW2Xzx7nTXzRy9ZAmd4CHYOtHb0cDpDBO2uK4HIgudfEY7oUAA6SNbTQJtMjE7ymriHoTsMvXlwD/vlb4C+dtVgH4BFhc002oLxsMsByxpVY9Hxq5oQWfFPWiHex3hsup1bpMOAP5Gn2v1GtSPpet6lVfDiQD70V0MgXe0uEd3GSEb0ToXusdZhE+sIiJDJJq6/kba1z+CQ1aMLwGz2MYbla24UbfpZbRXfXB4de6RGFNVTCmwxzUYj3Ba17z/5bR7G1dcxCkgcTPfhLDmH73EGICpHG62oMMaX5gtX+LiKPOqvARPsK3Nelo/RKnh8Ad3HTKrFFuMzY7uWXOSzfNcznHdXlK8Nxn9iJX3GHcNiki2ZDWTIgff0WBeQtmIgiBQZtadrStRZ8wrhhdJ14t8Fg1lG4SkNvL9i6y9ymYjIMW+cuckFqGoTnmnFMJtrYV0pOVzqDa1uvC18PTmwMBPQgBIdJH9Sm3krRtp0bb3EPZRaDRVflh0x1tRSO8PCZhP6EMDneUWszcd/nHJp3x19iR8+wA3qTY2wqRQ/aQPqQ9lgAJGW
+    properties :
+     x : 16
+     y : 235
+     width : 288
+     height : 151
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_Answer
+    identifier : 0x286fc8f501ee0dea
+    internal_properties : CAAAAAgAAABp8mpjD7flV11KhnfBWvqJk4HTojSc31OMuA3ydo6P0ibMv8GJF/txstEkjds9iY9cgifJb8SMaxVhBzSqz+sIwTpNaSXoS6lkoR9sfl6QTHjj1rvTQLnKWvMbibmglbtgs3Sy66DWsWaNSEiM+OCKGtAf7HIWEPuaQoggvNBR8aj1y0YFJbG4ifwVBRK4nKP1cqtmLA4xy7ff4ISm0MLLHr3ugNxukgTSGndTkJ9X9OnhFYlKy8Cde3lsaSi8h4ZQEIb39RPKDtemERhTHwwWD0ZbasGdIerrA43CIdWfDRWfCKbNP93etBiCNMi0r6nlGn/QcUBPLJwlhxL8WTFS1GRez8L4j8Q9VGKsE832iHpRrS/QG9oMvEwZyCrmwU9883uiubwvtQzSOQyUzZwxkNc5BZ/FiGWcCBlDCKXDDnuTVVofmL6QtS3dtDWT9Gqw20TL+m8OtvxAEt9CsToczQ==
+    properties :
+     x : 16
+     y : 182
+     width : 288
+     height : 33
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x286fc8f501ef0dea
+  internal_properties : CAAAAAgAAADEAHeJw+iKgZdt5xRcxLyzEXFK8hR/H845CbWnx7oVMghRLCOxqIrTopvEqQURrkbi97cOx5B3KOipmp532HjlgDVY9AMPkohZExcF1lE8Ibb1pQ+TjKA7SZO1D5Pnd6vWvDcrMVfsFtUCRJHj3+E1YkGTo6fwGN7sXp0yzJ+q8yiUK+UqW5VzBNHD0yujQ+UWq8jrqRoCEJz9yc033nbaHpz6IyYtdwdveez+xQnz2PfATkd/XTEA0mqxKhnm6wHq63P1pclTHp6w7VtZtuu6WUN3T9t0m+RN3Re13Q==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 18
+      enabled : false
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+    -
+      type : 17
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MyWindow()
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : SendDataToWatch
+     procedure_id : 1760846933924449770
+     type_code : 14
+     code : |1+
+      // Summary: Send data to the watch
+      //
+      PROCEDURE SendDataToWatch()
+      
+      bufSend is buffer 
+      
+      // Build the buffer containing the message to send
+      bufSend = "Sending data #" + GetIdentifier()
+      
+      // Send the information
+      awSendAndGetInfo(bufSend,CB_SendDataToWatch)
+     type : 458752
+  templates :
+   -
+     name : WIN_Phone
+     identifier : 0x186fc8f500660dea
+     code_elements :
+      internal_properties : CAAAAAgAAAAdlDhBcHsxSm+RwTDgCPqpKRPyp+gZVWExNq8cDI6+JIScd5BaKQDEt1y4jddtNAMA9gIMagXEv9MOGg==
+      type_code : 1
+      p_codes :
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+       -
+         type : 11
+       -
+         type : 12
+       -
+         type : 17
+       -
+         type : 13
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x185a5de200f680c8
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

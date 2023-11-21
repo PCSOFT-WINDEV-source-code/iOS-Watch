@@ -1,0 +1,162 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Watch
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Watch
+ identifier : 0x286fc8f6020911d2
+ internal_properties : CAAAAAgAAADFj4d41obN0FAm/p0NjW2P0z2V57cfCAWq7JWwETJxLJJ0mT3KcqqNXKZrON0clhhY9ZvhsJPIiQ8hlm9gcUInEa6axrQZHPRRXiR7U8P1dw9eRYdny4y1xCaXfcos6+1fBZ1X2J6WeIlJ5Rz+RzCdx5D542KWkOMttMalOMI5mhWZmKQe9Qfq9VQAMK+qimM+PEOaurySg7ovKVp8RhpgadpjDHYRJZGiyX1AhGy7Tq9F9rC9vM4Jgg/hwj1NF/0eu/jsw4YKiDVWd6MJq4ws5EO3GUqUyZgGU3fixXpxI9sxdMEKQlu4YjSYR4T7PAIWvD/T0/lpyT22VtLH3IST8+ifBpf4cTyaemYZlj6/iHJFMPBRGTHrliHWVyLNHJ63OH7A6cVMSX5cUo0KD7m1k9FOqufiErbmIwU4D7r5Dif9QFWKOXMJonqZ4qrag1aPT9i+l/Oxv56QPmme3/yGqE/DpwLk4phQ/sukPW5dPPmuoBytJHxqLh0x7HvbXzwg6XWET284xsR2aizpO2FaDeBSAWx8aYWNM5xmGlSLYtrPYwJZzm9ljGLBibzS9eSOq7m57MUhr6YLsjvfqmVqcq/bi3NpuPJpL8BKFfGBcJAkmWH4gyPo/bBQWZDTErVEiPnaw34gL/9weScTPSQFnn5ebyE4ejDu4G55jRpLhulvT4gfuJB8zyiMBbCsiTMJu2bUlLm5ZHlmUhlNkf0MlP09SWClYcLIy1f/YtkMrW3qJg==
+ properties :
+  width : 136
+  height : 150
+  heightMin : 170
+ controls :
+  -
+    name : STC_Text_sent_by_the
+    identifier : 0x286fc8f6020a11d2
+    internal_properties : CAAAAAgAAACP3UqfzoPKCMudCmROW53FCgVRuGh2DUkxxK/RBvAreurSUNdiaNcYfUg2YRvUsjaA9cmHnlPOXKeC+T4gzRy15YAZVJiPVs2kY5u0Dvhw6sY/7KTydSjssBKvNIPlSkj7J+ZGZsprppSUdmo4DYhpMdYilxPTbPSycBauTzKmJvhgZHN/TTeFk8m6lrGUgr/fiKYkxuvb8Gk+mQR/QRu4DPEs8wl5DhGBSiSaKpW3b6ezFGkQswgOpbmZTbLQmm7+0fxTAPfBpPdHwYBMoTzzhkQgeFQXYx84fnplsIQ4Lj8MPDN5uB0n/1H67LCvbM62xFMP1uhKZY4PvoZ3/3IfJ1ptWufJhyNSoi+flgVZowjoIWsErZi3fNVGxc/Nt7f30qi0Wki4DMnAd1tELtzAM0rSXi82zeZXyI5bvAKDOVPsOuY8HDFNssjwkF7qL7nOP7sm80j5NcvCvlPRzFam1hiloLVzoCbn3hSUGrk=
+    properties :
+     x : 3
+     y : 8
+     width : 130
+     height : 32
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_PhoneText
+    identifier : 0x286fc8f6020b11d2
+    internal_properties : CAAAAAgAAACpqnqCLGYoXAOcCZ3TYVi5DHOKU9B2Vudgf81bSHmClG3g9jBEVkCeX34+gKxdlKsuhivWd6we2glfxNIYvayuNiF8FXqtBwGqiaWcSPocQCeVM25RD8K5+hWssK2R9/HULZGY8gH11XSCfUhpAkd/jcZ15bhzVixwVGg7FJC/9x9S/yftZEZJaJRNaA5eaZd3tBCq7nX9bU3pvayRvq+4/Llmh5GJ4gPKVbZaetp6LhuYzAB+wY25UNMqpiO1ZJfrtUMWixrNhfkjxh6i5YC/IwAjX62lVlK69s2IeLGOt8LZXYC8WKHazKecxEMNtmjgwNtwKo+h4ww+sLeWRYGCKr4+r3WL+DrjqpUyY5nQlEu2E8ySbPbOsqJvnjuNd3wiA3GSKk1ro+V0u9/2SP78xBiqFviEn0iRPTFDPHsv72sXEO5GhP2TxjYe226xYetcmA==
+    properties :
+     x : 3
+     y : 45
+     width : 130
+     height : 32
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Send_a_message
+    identifier : 0x286fc8f6020c11d2
+    internal_properties : CAAAAAgAAAC99LTvr011nSPg3zEmRp6LTFYFswW3SQaxW3W4b5mDGyl+7o4uFE6UYtwx5Nwa7rumWwM067REnNRVU4RDoNzTQoLMue9UoDPXAevRTAwvS3ToZWA+O5d4B2yUs2Q9FwaDsJZ47aiXfGTtIVmNTgaXpE2mSXr/h42oh25GC4GBHy0MKBd1uM7jihQP0m4B0ZeUm66SCIqjbrFJ0qnFkQMUeCvjiHKTpELMOyP9EGUhPeApbfxZMmOBAu6V2ejuyf580rgja89Yia/m7ypPrOxdjkg3dvhPv2Z2LyGvQmdwU5i46apO6m/QUJEXoHo5ndIN5bOYgl8Q3znfQccYs0R7SOzMXjw6eDFVVs4S33F4/4zj7ExCIJ1ylLMYfOCjJ8/hK7osUKeE9b2uV5CBL8+yoJk9/TRMYwDdcI29rezYMopGpyIlTuXIgzr4W/xYcXeF6DFd3kg+xpHhvZYxFRbO8GNdgQvoo+R4MAwlJzTS4/gR3dMyoOAvF8ag3VEpdHwYMY91Z7DgPAVzB5xbQJ0FmVlQ6ARPQSlbmpX+mwQfgNfKytU7hipUz1g7Y8UrfgNc318V3oa5z7xxguixU0JvT9fmrG5U/Qii1Z0Il/F62amLr75/tPEFwg9SGKMXl7TY4x4rwheQM6ngHNGAN2L8R28CVlyF6OBrZfI0vlR+DWWS63fUP90gGifG6E66ZR2tRuiFk2t9gQHvbRQwSA+Vj8j90/al3OAbIFqrYabvI3/1Qg+wfPgaBi1qSQXsNXhqZZ0Wx+MS7tkrfDRvLidGFhQgfMH0kxbqIIHiGU48aZL7zy/Z0mLq/Be+j8OW9zdnDgYqaQAhlnSe57RSZPiZCbSHDg0kcJ87OZhM56EH5sv2mFMfBN1XXwU8KqCCbr+8Zfa6vVzAid5tIWJFVeGGUKeaiTsMAzhCFZSLEjN2pyLGyo6dtOlbErsYvxV/AjotFdgCM3P8Z3StT7qGsMo=
+    properties :
+     x : 8
+     y : 88
+     width : 120
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         STC_Answer..Visible = False
+         
+         // Send data to the phone
+         SendDataToPhone()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_Answer
+    identifier : 0x286fc8f6020d11d2
+    internal_properties : CAAAAAgAAABMo57NvqSFw8NVHgWTadG2OveNObbZHmE8d2GShrqxe16NYkQ23rF2QMp+FBv8m7TP6sCVKi2o8KQjYm75dC2z3BJ9ainaFX++KcKhSqceftEdeSF2+hUhEUE27spUApOREdtVhtEQnBYf+LyrWNYf/YuHS9IXQD22QGMBZoP/YSjBpBeIMQOMK6KtK7itxvHZ1jwxSQNlyeUoAnbIANLL47064htoDqvOAocomxKP60WPh5O1nTCOkX5pmpX+gUwqCklLZWx9Wqly54fJV8cNWCdnoOfsVYPAgXgEidghMiHTj++IZcff1dyAK2lZJ3jQVwLdWSapQIu113Kh+EKEipwrw1uBnkr1ri6z3CBtyj82C46Mk9xQFYuFNSCyn4aLir5lxLxDZBF9MvHlHNmyGXV5RxXEU+XS41rbjCLyD8NBEAZgqaPLskFE1VdGEkq6yQBNiJmsGwnDqlr8qlbZzSm04EsXowTi
+    properties :
+     x : 3
+     y : 131
+     width : 130
+     height : 13
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MyWindow()
+      
+      gnSubscript is int
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : SendDataToPhone
+     internal_properties : CAAAAAgAAACSHZ74l2YLgVREO9FmuBPaPcL2gt4V6fZmeIgZcbaKn1C1G4JJoAQhzpbSyPZUAWom3t77VmS5E9YymRaUgoSlhY7wvOCkG2akzM7R+RYVRuvQsG7iV0TToQ5ZgVyZeRyIT2A0Cfqm0cVIQ2yddYhpTsRK59GqjaJFiindsnpimxfZgSNAk9pHPZKkhDlF0DFTLM+uYWo=
+     procedure_id : 1760846938219680210
+     type_code : 14
+     code : |1+
+      // Summary: Send data to the phone
+      //
+      PROCEDURE SendDataToPhone()
+      
+      bufSend is buffer 
+      
+      
+      // Build the buffer containing the message to send
+      gnSubscript++
+      bufSend = "Sending data #" + gnSubscript
+      
+      // Send the information
+      awSendAndGetInfo(bufSend,CB_SendDataToPhone)
+     type : 458752
+  templates :
+   -
+     name : WIN_Watch
+     identifier : 0x186fc8f6006a11d2
+     code_elements :
+      internal_properties : CAAAAAgAAAAdlDhBcHsxSm+RwTDgCPqpKRPyp+gZVWExNq8cDI6+JIScd5BaKQDEt1y4jddtNAMA9gIMagXEv9MOGg==
+      type_code : 1
+      p_codes :
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+       -
+         type : 11
+       -
+         type : 12
+       -
+         type : 17
+       -
+         type : 13
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x185a5e0800fc16ee
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
